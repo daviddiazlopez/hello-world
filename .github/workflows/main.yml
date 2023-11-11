@@ -6,7 +6,7 @@ jobs:
   create-card:
       runs-on: ubuntu-latest
       steps:
-      - name: Create Trello Card
+      -name: Create Trello Card
         run: |
           curl "https://api.trello.com/1/cards" \
           -X POST \
