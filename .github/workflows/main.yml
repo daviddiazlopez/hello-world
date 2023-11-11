@@ -2,7 +2,6 @@ name: Create Trello Card for New Issue
 on:
   issues:
     types: [opened]
-    
 jobs:
   create-card:
       runs-on: ubuntu-latest
